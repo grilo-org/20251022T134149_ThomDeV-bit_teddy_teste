@@ -1,0 +1,4 @@
+export const REPOSITORIES_TOKEN = {
+    USER_REPOSITORY_TOKEN : Symbol.for('USER_REPOSITORY_TOKEN'),
+    SHORTY_LINKS_TOKEN : Symbol.for('SHORTY_LINKS_TOKEN')
+} as const
